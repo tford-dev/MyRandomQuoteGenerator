@@ -23,6 +23,14 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: white    
+}
+
+a:hover {
+    color: black;
+}
+
 button {
     margin-top: -2rem;
     background-color: white;
@@ -39,7 +47,7 @@ button {
 button:hover {
     animation-name: pop;
     animation-duration: .1s;
-    opacity: .85;
+    font-weight: bold;
 }
 
 #quote {
@@ -47,7 +55,7 @@ button:hover {
     animation-duration: 1s;
 }
 
-#author {
+.author {
     animation-name: fade;
     animation-duration: 2s;
 }
