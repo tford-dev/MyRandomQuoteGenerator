@@ -1,0 +1,55 @@
+body {
+    background-color: #3a7ae0;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+figure {
+    height: 20rem;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes pop {
+    from {padding: 1rem 2rem;}
+    to {padding: 2rem 3rem;}
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin-top: -2rem;
+    background-color: white;
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 1rem;
+}
+
+button:hover {
+    animation-name: pop;
+    animation-duration: .1s;
+    opacity: .85;
+}
+
+#quote {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+#author {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+
