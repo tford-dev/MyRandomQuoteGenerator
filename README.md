@@ -1,2 +1,2 @@
 # techDegree-project1
- A random quote generator I coded for the Team Treehouse Full Stack JavaScript curriculum. 
+My original random quote generator. The CSS, HTML, and JavaScript is all original code that I wrote from scratch.
